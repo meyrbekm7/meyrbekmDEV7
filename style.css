@@ -4,8 +4,7 @@
 }
 
 
-@media(max-width:768px){
-    
+
 a{
     text-decoration: none;
     color: black;
@@ -167,5 +166,77 @@ margin-left: 10px;
 button{
     box-shadow: 1px 2px 10px 1px black;
 }
+
+
+/* ================= RESPONSIVE FIX ================= */
+
+@media (max-width: 992px){
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav{
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .main{
+        width: 90%;
+        margin-left: 0;
+        height: auto;
+    }
+
+    .AVA{
+        height: auto;
+        justify-content: center;
+    }
+
+    .avatar{
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 20px auto;
+    }
+
+    .name{
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .btn{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 80%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .call{
+        position: relative;
+        left: 0;
+        width: 90%;
+        margin: 20px auto;
+        padding: 30px;
+    }
+
+    .pasword{
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 90%;
+        margin: 20px auto;
+        padding: 30px;
+    }
+
+    .btn2{
+        margin-left: auto;
+        width: 40%;
+    }
 
 }
