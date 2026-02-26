@@ -12,7 +12,7 @@ a{
     display: flex;
     gap: 20px;
     padding: 20px;
-    
+    flex-wrap: wrap;
 }
 
 .nav{
@@ -25,12 +25,12 @@ a{
     gap: 20px;
      display: flex;
     flex-direction: column; 
-    background-color: ;
     gap: 15px; 
 padding: 10px;
 margin-left: 50px;
   background-color: #d5dee9;
   border: none;
+  flex-wrap: wrap;
 
 }
 
@@ -43,12 +43,14 @@ margin-left: 50px;
 
 .AVA{
 position: relative;
-
+display: flex;
+flex-wrap: wrap;
 height: 300px;
 }
 
 .main{
     width: 70%;
+    flex-wrap: wrap;
     height: 380px;
    border: 1px solid black;
    background-color: #d5dee9;
@@ -70,6 +72,7 @@ margin-left: 10px;
     display:flex;
     justify-content:center;
     align-items:center;
+    flex-wrap: wrap;
     font-size:40px;
     font-weight:bold;
     color:white;
@@ -90,6 +93,7 @@ margin-left: 10px;
     font-size: 20px;
     left: 40px;
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ flex-wrap: wrap;
 }
 
 
@@ -102,6 +106,7 @@ margin-left: 10px;
     padding: 15px;
     width: 30%;
     border-radius: 20px;
+    flex-wrap: wrap;
     border :none;
     position: absolute;
     top: 290px;
@@ -118,6 +123,9 @@ margin-left: 10px;
     position: absolute;
     left: 450px;
     border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
    font-size: 20px;
 
 }
@@ -128,6 +136,8 @@ margin-left: 10px;
     padding: 50px;
     position: absolute;
     top: 75%;
+   
+    flex-wrap: wrap;
        border-radius: 20px;
    font-size: 10px;
    left: 448px;
@@ -139,6 +149,7 @@ margin-left: 10px;
    font-size: 15px;
    width: 15%;
   padding: 10px;
+  flex-wrap: wrap;
   border-radius: 10px;
   border: none;
   background-color: dodgerblue;
