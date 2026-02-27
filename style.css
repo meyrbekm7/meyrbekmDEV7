@@ -168,9 +168,8 @@ button{
 }
 
 
-/* ================= RESPONSIVE FIX ================= */
 
-@media (max-width: 992px){
+@media (max-width: 882px){
 
     .container{
         flex-direction: column;
@@ -178,12 +177,12 @@ button{
     }
 
     .nav{
-        width: 90%;
+        width: 80%;
         margin-left: 0;
     }
 
     .main{
-        width: 90%;
+        width: 80%;
         margin-left: 0;
         height: auto;
     }
@@ -220,7 +219,7 @@ button{
     .call{
         position: relative;
         left: 0;
-        width: 90%;
+        width: 80%;
         margin: 20px auto;
         padding: 30px;
     }
