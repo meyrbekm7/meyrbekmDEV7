@@ -228,14 +228,14 @@ button{
         position: relative;
         left: 0;
         top: 0;
-        width: 90%;
+        width: 80%;
         margin: 20px auto;
         padding: 30px;
     }
 
     .btn2{
         margin-left: auto;
-        width: 40%;
+        width: 20%;
     }
 
 }
