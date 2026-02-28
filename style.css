@@ -123,7 +123,7 @@
 .pasword {
     background-color: #d5dee9;
     margin-top: 10px;
-    width: 62%;
+    width: 63%;
     padding: 50px;
     position: absolute;
     top: 75%;
@@ -153,6 +153,7 @@ height: 40px;
 .btn2:hover {
     box-shadow: 1px 4px 10px 1px rgb(3, 78, 154);
        transform: translate(5px);
+    
 }
 
 .bu {
