@@ -102,16 +102,16 @@
 
 .btn:hover {
     box-shadow: 1px 4px 10px 1px rgb(3, 78, 154);
-    transform: rotate(5deg);
+    transform: translate(5px);
 }
 
 
 .call {
     background-color: #d5dee9;
-    width: 63%;
+    width: 62%;
     padding: 50px;
     position: absolute;
-    left: 450px;
+    left: 410px;
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -122,16 +122,16 @@
 
 .pasword {
     background-color: #d5dee9;
-    width: 63%;
+    margin-top: 10px;
+    width: 62%;
     padding: 50px;
     position: absolute;
     top: 75%;
-
     flex-wrap: wrap;
     border-radius: 20px;
     font-size: 10px;
-    left: 448px;
-
+    left: 410px;
+height: 40px;
 }
 
 
@@ -152,7 +152,7 @@
 
 .btn2:hover {
     box-shadow: 1px 4px 10px 1px rgb(3, 78, 154);
-    transform: rotate(5deg);
+       transform: translate(5px);
 }
 
 .bu {
@@ -169,9 +169,13 @@ a {
 
 a:hover {
 
-    color: dodgerblue;
+    color: rgb(9, 38, 68);
     text-decoration: underline;
-    transform: translateX(10px)
+    transform: translateX(10px);
+    background-color: rgb(4, 134, 255);
+    border-radius: 20px;
+   padding: 10px;
+   height: 10px;
 }
 
 @media (max-width: 882px) {
