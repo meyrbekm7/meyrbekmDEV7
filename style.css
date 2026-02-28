@@ -1,113 +1,97 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
 
-
-
-
-
-.container{
+.container {
     display: flex;
     gap: 20px;
     padding: 20px;
     flex-wrap: wrap;
 }
 
-.nav{
-  
+.nav {
+
     border-radius: 20px;
-    border:1px solid black;
+    border: 1px solid black;
     width: 20%;
-    height:350px;
+    height: 350px;
     flex-direction: row;
     gap: 20px;
-     display: flex;
-    flex-direction: column; 
-    gap: 15px; 
-padding: 10px;
-margin-left: 50px;
-  background-color: #d5dee9;
-  border: none;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    margin-left: 50px;
+    background-color: #d5dee9;
+    border: none;
+    flex-wrap: wrap;
 
 }
 
-
-
-
-
-
-
-
-.AVA{
-position: relative;
-display: flex;
-flex-wrap: wrap;
-height: 300px;
+.AVA {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
 }
 
-.main{
+.main {
     width: 70%;
     flex-wrap: wrap;
     height: 380px;
-   border: 1px solid black;
-   background-color: #d5dee9;
-   border-radius: 20px;
-   border: none;
-margin-left: 10px;
+    border: 1px solid black;
+    background-color: #d5dee9;
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
 }
 
-
-
-
-
-
-.avatar{
-    width:120px;
-    height:120px;
-    border-radius:50%;
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
     background: linear-gradient(135deg, #00c6ff, #4d77a9);
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    font-size:40px;
-    font-weight:bold;
-    color:white;
-  position: absolute;
-  top: 20px;
-  left:80px;
-    box-shadow:0 10px 25px rgba(0,0,0,0.3);
-    transition:0.4s;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
     cursor: not-allowed;
 }
 
-.avatar:hover{
-    transform:scale(1.1) rotate(5deg);
+.avatar:hover {
+    transform: scale(1.1) rotate(5deg);
 }
 
-.name{
+.name {
     position: absolute;
     top: 170px;
     font-size: 20px;
     left: 40px;
- font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-wrap: wrap;
 }
 
 
-.ava{
+.ava {
     background-color: #00c6ff;
 }
 
-.btn{
+.btn {
     font-size: 20px;
     padding: 15px;
     width: 30%;
     border-radius: 20px;
     flex-wrap: wrap;
-    border :none;
+    border: none;
     position: absolute;
     top: 290px;
     left: 30px;
@@ -116,13 +100,13 @@ margin-left: 10px;
     transition: 0.3s;
 }
 
-.btn:hover{
-   box-shadow: 1px 4px 10px 1px rgb(3, 78, 154);
-   transform: rotate(5deg);
+.btn:hover {
+    box-shadow: 1px 4px 10px 1px rgb(3, 78, 154);
+    transform: rotate(5deg);
 }
 
 
-.call{
+.call {
     background-color: #d5dee9;
     width: 63%;
     padding: 50px;
@@ -131,98 +115,96 @@ margin-left: 10px;
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
-    
-   font-size: 20px;
+
+    font-size: 20px;
 
 }
 
-.pasword{
+.pasword {
     background-color: #d5dee9;
-  width: 63%;
+    width: 63%;
     padding: 50px;
     position: absolute;
     top: 75%;
-   
+
     flex-wrap: wrap;
-       border-radius: 20px;
-   font-size: 10px;
-   left: 448px;
- 
+    border-radius: 20px;
+    font-size: 10px;
+    left: 448px;
+
 }
 
 
 
-.btn2{
+.btn2 {
     display: flex;
-   margin-left: 85%;
-   font-size: 15px;
-   width: 15%;
-  padding: 10px;
-  flex-wrap: wrap;
-  border-radius: 10px;
-  border: none;
-  background-color: dodgerblue;
-  color: white;
-   transition: 0.3s;
+    margin-left: 85%;
+    font-size: 15px;
+    width: 15%;
+    padding: 10px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    transition: 0.3s;
 }
 
-.btn2:hover{
-      box-shadow: 1px 4px 10px 1px rgb(3, 78, 154);
-   transform: rotate(5deg);
+.btn2:hover {
+    box-shadow: 1px 4px 10px 1px rgb(3, 78, 154);
+    transform: rotate(5deg);
 }
 
-.bu{
+.bu {
     font-size: 20px;
 }
 
-
-
-
-
-a{
+a {
     flex: 5px;
     transition: 0.3s;
     text-decoration: none;
     color: black;
-   
+
 }
-a:hover{
-   
-     color: dodgerblue;
+
+a:hover {
+
+    color: dodgerblue;
     text-decoration: underline;
     transform: translateX(10px)
 }
-@media (max-width: 882px){
 
-    .container{
+@media (max-width: 882px) {
+
+    .container {
         flex-direction: column;
         align-items: center;
     }
 
-    .nav{
+    .nav {
         width: 80%;
         margin-left: 0;
     }
 
-    .main{
+    .main {
         width: 80%;
         margin-left: 0;
         height: auto;
     }
 
-    .AVA{
+    .AVA {
         height: auto;
         justify-content: center;
     }
 
-    .avatar{
+    .avatar {
         position: relative;
         left: 0;
         top: 0;
         margin: 20px auto;
     }
 
-    .name{
+    .name {
         position: relative;
         top: 0;
         left: 0;
@@ -230,26 +212,26 @@ a:hover{
         margin-top: 10px;
     }
 
-    .btn{
+    .btn {
         position: relative;
         top: 0;
         left: 0;
         width: 80%;
         margin: 20px auto;
         display: block;
-        
+
     }
 
-    .call{
+    .call {
         position: relative;
         left: 0;
         width: 80%;
         margin: 20px auto;
         padding: 30px;
-        
+
     }
 
-    .pasword{
+    .pasword {
         position: relative;
         left: 0;
         top: 0;
@@ -258,7 +240,7 @@ a:hover{
         padding: 30px;
     }
 
-    .btn2{
+    .btn2 {
         margin-left: auto;
         width: 40%;
     }
